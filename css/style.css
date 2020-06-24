@@ -1,0 +1,11 @@
+body {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-attachment: scroll;
+  background-size: auto;
+  background-position: top;
+}
+.main{
+
+}
