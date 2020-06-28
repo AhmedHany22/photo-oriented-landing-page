@@ -1,0 +1,1 @@
+photo-oriented landing page
