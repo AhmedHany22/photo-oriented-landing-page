@@ -1,11 +1,282 @@
 body {
-  background-image: url("bg.jpg");
+  margin: 0;
+  padding-top: 95px;
+  text-align: center;
+  background-size: 100%;
+  background-color: #1D1E21;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-attachment: scroll;
-  background-size: auto;
-  background-position: top;
+  background-image: url(../images/bg.jpg);
 }
-.main{
+h1 {
+  margin: 0;
+  color: white;
+  font-size: 2.4rem;
+  margin-bottom: 24PX;
+  line-height: 0.95rem;
+  font-family: 'Poppins', sans-serif;
+}
+span {
+  color: #d3d3d3;
+  font-weight: 300;
+  font-size: 0.73rem;
+}
+.main {
+  left: 0;
+  right: 0;
+  margin: 0 22px;
+  box-shadow: 8px 8px 20px 10px #1D1E21;
+}
+.title-img {
+  width: 100%;
+  display: flex;
+}
+.second-div {
+  padding: 50px 29.3px 40px;
+  background-color: #FFFFFF;
+}
+h2{
+  margin: 0;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+}
+hr {
+  margin: 0 auto;
+  color: #3E3E40;
+  width: 180px;
+  padding: 5px 0 10px;
+  border-width: 0.5px;
+  margin-bottom: 15px;
+  border-style: none none solid;
+}
+.first-p {
+  color: #BFBFBF;
+  font-size: 0.65rem;
+  letter-spacing: .19rem;
+  text-transform: uppercase;
+}
+.third-div {
+  padding: 32px 32px 1px 35px;
+  display: block;
+  line-height: 1.3rem;
+  text-align: left;
+  background-color: #F7F6F5;
+}
+p {
+  margin: 0;
+  color: #989898;
+  font-weight: 300;
+  font-size: 0.73rem;
+  font-family: 'Poppins', sans-serif;
+}
+.temp{
+  font-size: 0.8rem;
+  margin: 0 0 1.5rem 0;
+}
+.fourth-div {
+  padding: 1.7rem;
+  background-color: #1E1F23;
+}
+.inner-div {
+  padding: 25px;
+  background-color: black;
+}
+.third-header {
+  color: #fff;
+  padding-top: 5px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.third-p{
+  color: #393939;
+  font-weight: 800;
+  font-size: 0.7rem;
+  letter-spacing: .15rem;
+  text-transform: uppercase;
+}
+.gallery {
+  width: 100;
+  display: block;
+}
+img {
+  width: 100%;
+  display: flex;
+}
+.fifth-div {
+  width: 100%;
+  display: block;
+  text-align:center;
+}
+.e-image{
+  width: 100%;
+}
+.first-inner{
+  width: 100%;
+  background-color: white;
+}
+.first-parag{
+  text-align: center;
+  padding: 16px 32px 32px;
+}
+.second-inner{
+  top: 370px;
+  width: 100%;
+  position: relative;
+  background-color: #1E1F23;
+}
+.second-parag{
+  text-align: center;
+  padding: 16px 32px 32px;
+}
+.f-image{
+  bottom: 232px;
+  width: 100%;
+  position: relative;
+}
+.last-div {
+  width: 100%;
+  padding: 4.3% 0 3%;
+  text-align: center;
+}
+.contact{
+  margin-bottom: 25px;
+}
+.fa {
+  opacity: 0.5;
+  padding: 15px 7px;
+  font-size:2em;
+  text-align: center;
+  text-decoration: none;
+}
 
+.fa:hover {
+  opacity: 1;
 }
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-envelope-o {
+  color: white;
+}
+.fa-linkedin{
+  color: white;
+}
+.copyright{
+  padding: 0 30px 20px;
+}
+.last-p{
+  color:#bfbfbf;
+  font-size:0.8rem;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    padding-top: 113px;
+    background-size: cover;
+    background-position: center;
+  }
+  h1{
+    font-size: 2.9rem;
+    margin-bottom: 56PX;
+  }
+  .main{
+    margin: 0 85px;
+  }
+  h2{
+    font-size: 1.38rem;
+  }
+  hr{
+    width: 90px;
+  }
+  .first-p{
+    font-size: 0.6rem;
+  }
+  .third-div {
+    padding: 88px;
+    line-height: 1.2rem;
+  }
+  .temp {
+    font-size: 0.73rem;
+  }
+  .second-div{
+    padding: 65px 29.333px 58.667px;
+  }
+  .fourth-div {
+    padding: 4.45rem;
+  }
+  .inner-div {
+    padding: 29.4px;
+  }
+  .third-header {
+    font-size: 1.35rem;
+  }
+  .third-p{
+    font-size: 0.63rem;
+  }
+  .gallery {
+    display: flex;
+  }
+  .fifth-div {
+    display: flex;
+  }
+  .e-image{
+    width: 50%;
+  }
+  .f-image{
+    width: 50%;
+  }
+  .first-inner{
+    width: 50%;
+  }
+  .first-parag{
+    top: 100px;
+    text-align: left;
+    position: relative;
+    padding: 0 90px 0 90px;
+  }
+  .second-inner{
+    width: 50%;
+    position: static;
+  }
+  .second-parag{
+    top: 100px;
+    overflow: auto;
+    text-align: right;
+    position: relative;
+    padding: 0 90px 0 90px;
+  }
+  .f-image{
+    position: static;
+  }
+  .copyright{
+    padding: 0;
+  }
+  .last-p{
+    font-size:0.65rem;
+  }
+  .fa{
+    font-size: 1.4rem;
+  }
+}
+/*
+
+<div class="last-div">
+  <div class="contact">
+    <a style="font-size:1.4rem;" href="#" class="fa fa-twitter"></a>
+    <a style="font-size:1.4rem;" href="#" class="fa fa-facebook"></a>
+    <a style="font-size:1.4rem;" href="#" class="fa fa-google"></a>
+    <a style="font-size:1.4rem;" href="#" class="fa fa-envelope-o"></a>
+  </div>
+  <div class="copyright">
+    <p style="color:#bfbfbf; font-size:0.65rem;">© Untitled. All rights reserved.
+      Images <a style="color:#bfbfbf;" href="https://unsplash.com">Unsplash</a> Design Ahmed Hany.</p>
+  </div>
+</div>
+<a href='https://www.freepik.com/free-photos-vectors/logo'>Logo vector created by freepik - www.freepik.com</a>
+*/
