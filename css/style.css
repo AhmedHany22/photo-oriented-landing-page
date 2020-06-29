@@ -119,13 +119,15 @@ img {
   padding: 16px 32px 32px;
 }
 .second-inner{
-  top: 330px;
-  width: 100%;
-  background-color: #1E1F23;
+  display: none;
 }
 .second-parag{
   text-align: center;
   padding: 16px 32px 32px;
+}
+.second-inner-2{
+  width: 100%;
+  background-color: #1E1F23;
 }
 .f-image{
   width: 100%;
@@ -240,7 +242,9 @@ img {
   }
   .second-inner{
     width: 50%;
+    display: block;
     position: static;
+    background-color: #1E1F23;
   }
   .second-parag{
     top: 100px;
@@ -260,6 +264,9 @@ img {
   }
   .fa{
     font-size: 1.4rem;
+  }
+  .second-inner-2{
+    display: none;
   }
 }
 /*
