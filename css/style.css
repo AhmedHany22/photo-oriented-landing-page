@@ -175,7 +175,7 @@ img {
   font-size:0.8rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1080px) {
   body {
     padding-top: 113px;
     background-size: cover;
